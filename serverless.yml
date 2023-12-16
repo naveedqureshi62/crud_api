@@ -1,0 +1,60 @@
+service: naveed
+
+frameworkVersion: "3"
+
+plugins: 
+  - serverless-offline
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+
+functions:
+  insert:
+     handler: insert.insert
+     events:
+     - http:
+         path: /insert
+         method: post
+
+  search:
+     handler: search.search
+     events:
+     - http:
+         path: /search
+         method: get
+
+  update:
+     handler: update.update
+     events:
+     - http:
+         path: /update/{id}
+         method: put
+  
+  bulk:
+     handler: bulk.bulk
+     events:
+     - http:
+         path: /bulk
+         method: post
+
+  delete:
+     handler: delete.delete
+     events:
+     - http:
+         path: /delete
+         method: delete
+
+  put:
+     handler: put.put
+     events:
+     - http:
+         path: /put
+         method: put
+
+  update1:
+     handler: update1.update1
+     events:
+     - http:
+         path: /update1/{id}
+         method: put

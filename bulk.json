@@ -1,0 +1,90 @@
+[
+    {
+        "order_details":{
+            "item":"note 4 pro",
+            "brand":"mi",
+            "qantity":"1pc"
+        }, "customer_details":{
+            "name":"faizan",
+            "phone":"90990889090",
+            "address":"mumtaz colony"
+        }
+    
+},
+    {
+        "order_details":{
+            "item":"pizza",
+            "qty":"90",
+            "price":"120"
+        },"customer_details":{
+            "name":"faizu",
+            "contact":"9877888",
+             "address":"lakdikapul",
+             "city":"hyd"
+        }
+    },
+    {
+        
+            "order_details":{
+                "item":"note 7",
+                "brand":"mi",
+                "qantity":"5pc"
+            }, "customer_details":{
+                "name":"fayyaj",
+                "phone":"90452490",
+                "address":"joher colony"
+            }
+        
+    },
+    {
+        
+            "order_details":{
+                "item":"note 8 pro",
+                "brand":"mi",
+                "qantity":"6pc"
+            }, "customer_details":{
+                "name":"kaif",
+                "phone":"99890890",
+                "address":"yousuf guda"
+            }
+        
+},
+{
+    "order_details":{
+        "item":"note 8",
+        "brand":"mi",
+        "qantity":"9pc"
+    }, "customer_details":{
+        "name":"arshad",
+        "phone":"989776890",
+        "address":"shahnuz colony"
+    }
+
+},
+
+{
+    "order_details":{
+        "item":"note 9 pro",
+        "brand":"mi",
+        "qantity":"10pc"
+    }, "customer_details":{
+        "name":"aamer",
+        "phone":"90988900",
+        "address":"osmaniya colony"
+    }
+
+},
+{
+    "order_details":{
+        "item":"note 9 pro max",
+        "brand":"mi",
+        "qantity":"20pc"
+    }, "customer_details":{
+        "name":"sufiyan",
+        "phone":"912321310",
+        "address":"rahem nagar"
+    }
+      
+}
+
+]
